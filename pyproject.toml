@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "scrapfly-instagram"
+name = "fluffy_fiesta"
 version = "0.1.0"
 description = "demo web scraper for Instagram.com using Scrapfly"
 authors = ["Bernardas Alisauskas <bernardas@scrapfly.io>"]
