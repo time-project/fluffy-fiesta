@@ -1,14 +1,14 @@
 [tool.poetry]
-name = ""
+name = "fluffy-fiesta"
 version = "0.1.0"
-description = "demo web scraper for Instagram.com using Scrapfly"
+description = "Demo web scraper for Instagram.com using Scrapfly"
 authors = ["Bernardas Alisauskas <bernardas@scrapfly.io>"]
 license = "NPOS-3.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-scrapfly-sdk = {extras = ["all"], version = "^0.8.5"}
+scrapfly-sdk = { extras = ["all"], version = "^0.8.5" }
 loguru = "^0.7.0"
 jmespath = "^1.0.1"
 
@@ -29,7 +29,7 @@ python_files = "test.py"
 
 [tool.black]
 line-length = 120
-target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+target-version = ["py37", "py38", "py39", "py310", "py311"]
 
 [tool.ruff]
 line-length = 120
